@@ -1,0 +1,34 @@
+{
+  "name": "bit",
+  "version": "0.1.0",
+  "description": "this is a bit for the project connectiong bits. Should be used as layout for other bits. Call it the proto bit",
+  "main": "app/index.js",
+  "engine": "0.12.9",
+  "scripts": {
+    "start": "node app/index.js",
+    "watch": "node_modules/.bin/babel src -w -d app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "connecting",
+    "bits",
+    "FH-Potsdam",
+    "shiftr.io",
+    "mqtt"
+  ],
+  "author": "Fabian fabiantheblind Morón Zirfas",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.1.18",
+    "eslint": "^1.10.3"
+  },
+  "dependencies": {
+    "johnny-five": "^0.9.14",
+    "mqtt": "^1.6.1",
+    "particle-io": "^0.11.0",
+    "simpler-config": "0.0.4"
+  }
+}

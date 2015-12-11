@@ -1,0 +1,13 @@
+{
+  // this is the name of your photon
+  // you must remove these comments or it wont work
+  "name":"jimmyolson",
+  // this is his ID
+  "id":"1234567898765432",
+  // this is your particle access token
+  "token":"98765432uztrewjhgfdnbvcx",
+  // this is the pw for shiftr.io
+  "pw":"supersecret",
+  // this is the shiftr.io username
+  "user":"your-user-name"
+}
